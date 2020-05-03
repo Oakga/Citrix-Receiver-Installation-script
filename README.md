@@ -1,6 +1,8 @@
 # Citrix-Receiver-Installation-script
 
-# Installing the Package
+How to install on ubuntu
+
+## Installing the Package
 
 Download the package from here (scroll down to the “Debian Packages” section).
 
@@ -24,7 +26,7 @@ c. https://launchpad.net/ubuntu/cosmic/amd64/libwebkitgtk-1.0-0/2.4.11-3ubuntu3
 
  
 
-# Install the files in that order in the terminal
+## Install the files in that order in the terminal
 
 (assuming the files are in the Downloads folder)
 ```
@@ -38,7 +40,7 @@ This correctly installs Citrix Workspace. If you then get connection errors when
 
  
 
-# Fix the certificate error.
+## Fix the certificate error.
 ```
 sudo ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/cacerts/
 sudo c_rehash /opt/Citrix/ICAClient/keystore/cacerts/
