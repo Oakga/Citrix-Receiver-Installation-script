@@ -6,6 +6,10 @@ How to install on ubuntu
 
 Download the package from here (scroll down to the “Debian Packages” section).
 
+```
+https://www.citrix.com/downloads/citrix-receiver/linux/receiver-for-linux-latest.html
+```
+
 Install it.
 ```
 sudo dpkg -i icaclient_13.10.0.20_amd64.deb
