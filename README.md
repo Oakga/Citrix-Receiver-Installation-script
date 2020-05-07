@@ -38,7 +38,7 @@ cd ~/Downloads
 sudo dpkg -i libicu60_60.2-3ubuntu3_amd64.deb
 sudo dpkg -i libjavascriptcoregtk-1.0-0_2.4.11-3ubuntu3_amd64.deb
 sudo dpkg -i libwebkitgtk-1.0-0_2.4.11-3ubuntu3_amd64.deb
-sudo dpkg -i icaclient_19.3.0.5_amd64.deb
+sudo dpkg -i icaclient_13.10.0.20_amd64.deb
 ```
 This correctly installs Citrix Workspace. If you then get connection errors when trying to set it up, also implement step 3.
 
